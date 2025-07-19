@@ -1,0 +1,84 @@
+.gradient-background {
+  background: linear-gradient(300deg, #162930, #7e404a, #ebb0a8);
+  background-size: 180% 180%;
+  animation: gradient-animation 4s ease infinite;
+  
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+  
+}
+
+/* title */
+
+/* features */
+.tfeatures{
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-content: center;
+  margin: 100px;
+}
+.log{
+  height: 50px;
+  background-color: #fdebe8;
+  border-radius: 20%;
+  padding: 5px 5px 5px 5px;
+}
+#testimonial{
+  background-color: #f7f0f7;
+  /* height: 400px; */
+}
+.doogg{border-radius: 50%;}
+.dog-img{
+  display: flex;
+  justify-content: center;
+}
+
+.company{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+  padding-bottom: 4rem;
+  padding-top: 5rem;
+}
+.Woof{
+  text-align: center;
+  font-size: 32px;
+  margin-top: 7rem;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+}
+
+.comm{
+  height:"30px"
+}
+  
+.text-bg-primary{
+  background-color: #3ba5cc;
+}
+
+.foot{
+  margin-bottom: 0%;
+  padding-bottom: 0.5rem;
+}
